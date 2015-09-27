@@ -109,27 +109,29 @@ small {
     .main { 
         font-size: 10pt;
         box-shadow: none;
-     }
+    }
     header {
         text-shadow: none;
         background: #ffffff;
         min-height: 120px;
         margin-bottom: none;
         padding: 1px 2px 0 2px; 
-}
-
+    }
     h1 {
-        font-family: 'Merriweather', serif;
-        font-size: 20px;
+        font-size: 10px;
         color: #FF9391;
         padding: 0 0 0 0;
-}
+    }
     h2 {
-        font-family: 'Courgette', cursive;
-        font-size: 60px;
+        font-size: 30px;
         color: #A61832;
         padding: 0 0 0 0;
-}
+    }
+    h3 {
+    font-size: 20px;
+    color: #A61832;
+    padding: 0 0 0 1em;
+    }
     footer {
         display: none !important;
     }
