@@ -1,0 +1,136 @@
+/*--- Header Styles ---*/
+header {
+    text-align: center;
+    text-shadow: 1px 1px #ffffff;
+    background: #F3C89E;
+    border-radius: 25px;
+    margin: 0 auto;
+    max-width: 800px;
+    min-height: 120px;
+    margin-bottom: none;
+    padding: 1px 10px 0 10px; 
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #FF9391;
+    padding: 0 0 0 0;
+}
+h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 60px;
+    color: #A61832;
+    padding: 0 0 0 0;
+}
+h3 {
+	font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: #A61832;
+    padding: 1em 0 0 1em;
+}
+h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    color: #FF9391;
+    text-shadow: 1px 2px #A61832;
+    margin-left: 2em;
+}
+/*---Paragraph and list styles ---*/
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #FF9391;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+ul {
+	font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #FF9391;
+    margin-right: 5em;
+}
+/*--- Classes Styles ---*/
+.main {
+	border-radius: 25px;
+    background: url(../images/linedpaper.png);
+    background-position: left top;
+    background-repeat: repeat;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 10px; 
+    max-width: 800px;
+    min-height: 800px;
+    box-shadow: 5px 5px 5px #F3C89E;  
+}
+/*---Classes and tags styles ---*/.space,
+.dspace {
+margin-left: 3em;
+}
+/*--- Footer Tags Styles ---*/
+footer {
+    text-align: center;
+    background: #F3C89E;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px 10px 10px 10px;
+    max-width: 800px;
+    min-height: 30px;
+}
+small {
+    font-family: 'Courgette', cursive;
+    font-size: 14px;
+    color: #A61832;
+    text-shadow: 1px 1px #ffffff;
+    margin: 0 1em 0 1em;
+}
+
+/*@media screen and (min-width: 500px) {
+    header {
+        font-size: 60px;
+        padding: 0 20px 0 20px; 
+        max-width: 800px;
+        height: 120px;
+        margin-bottom: none;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 0 0 0 0;
+    }
+    h2 {
+        font-size: 60px;
+        padding: 0 0 0 0;
+}
+}
+*/
+@media print {
+    body, 
+    .main { 
+        font-size: 10pt;
+        box-shadow: none;
+     }
+    header {
+        text-shadow: none;
+        background: #ffffff;
+        min-height: 120px;
+        margin-bottom: none;
+        padding: 1px 2px 0 2px; 
+}
+
+    h1 {
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        color: #FF9391;
+        padding: 0 0 0 0;
+}
+    h2 {
+        font-family: 'Courgette', cursive;
+        font-size: 60px;
+        color: #A61832;
+        padding: 0 0 0 0;
+}
+    footer {
+        display: none !important;
+    }
+}
